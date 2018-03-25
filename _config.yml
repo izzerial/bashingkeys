@@ -1,0 +1,40 @@
+# Site
+name: Bashing Keys
+description: Linux Apps, Games, Howto's, Distributions and More!
+meta_description: "Covering Linux Apps, Games, Howto's, Distributions and More!"
+logo: 'assets/images/bashingkeys.jpg'
+favicon: 'assets/images/favicon.ico'
+paginate: 12
+baseurl: /
+email: 'mike@cmscritic.com'
+google_analytics: 'UA-116335779-1'
+disqus: 'demowebsite'
+sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5ab67e05aa671e0013a45741&product=sticky-share-buttons"></script>'
+
+# Authors
+authors:
+  mike:
+    name: Mike Johnston
+    display_name: Mike Johnston
+    gravatar: 603abd006ebfd011fb8c221732434df3
+    email: mike@cmscritic.com
+    web: https://bashingkeys.com
+    twitter: https://twitter.com/bashingkeyscom
+    description: "Mike is an avid Linux user that can't stop distro hopping. He started this website to share his obsession with Linux and technology."
+  
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Other
+markdown: kramdown
+highlighter: rouge

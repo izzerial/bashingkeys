@@ -1,0 +1,32 @@
+---
+# Lets add a comment to make this file sass-y.
+# Change this file for any custom CSS.
+---
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+@import
+	"syntax"
+;
+.col-sm-6 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.navbar-brand img {
+	max-width:80% !important;
+}
+.listfeaturedtag .thumbnail {
+    background-size: cover;
+    height: 100%;
+    display: block;
+    background-position: 55% 0% !important;
+    background-origin: border-box !important;
+    border-top-left-radius: 2px;
+}
+.col-md-5 {
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+}
